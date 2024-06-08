@@ -64,9 +64,13 @@ public class PlayerController : MonoBehaviour
             currentSpeedY = 0;
         }
         
+        
         float movementDirectionY = moveDirection.y;
         moveDirection = (forward * currentSpeedX) + (right * currentSpeedY);
         
+        if (!characterController.isGrounded) {
+            moveDirection.y -= gravity * Time.deltaTime;
+        }
         characterController.Move(moveDirection * Time.deltaTime);
 
         //Camera movement
