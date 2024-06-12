@@ -14,6 +14,7 @@ public class EnemyHealth : MonoBehaviour
 
     public void TakeDamage(int damageAmount) {
         currentHealth -= damageAmount;
+        gameObject.GetComponent<Animator>().SetTrigger("TakeDamage");
 
         if (currentHealth <= 0) {
             Die();
@@ -21,6 +22,6 @@ public class EnemyHealth : MonoBehaviour
     }
 
     private void Die() {
-        //gameObject.GetComponent<Animator>().SetBool("Death", true);
+        gameObject.GetComponent<Animator>().SetBool("Death", true);
     }
 }
