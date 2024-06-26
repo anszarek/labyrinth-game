@@ -25,6 +25,7 @@ public class CanBeCollected : MonoBehaviour{
             inReach = true;
             interactionText.text = myText;
             interactionUI.SetActive(true);
+            Debug.Log("In reach");
         }
     }
 

@@ -48,6 +48,13 @@ public class Knife : MonoBehaviour
                     }
                 }
 
+                if (hit.collider.CompareTag("SpiderWeb")) {
+                    SpiderWeb spiderWeb = hit.collider.GetComponent<SpiderWeb>();
+                    if (spiderWeb != null) {
+                        spiderWeb.TakeDamage(damage);
+                    }
+                }
+
                 StartCoroutine(endAnimations());
 
                 //start cooldown

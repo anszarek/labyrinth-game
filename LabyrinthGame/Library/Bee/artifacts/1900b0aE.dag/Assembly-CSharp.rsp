@@ -359,9 +359,12 @@
 "Assets/Scripts/CanBeCollected.cs"
 "Assets/Scripts/EnemyController.cs"
 "Assets/Scripts/EnemyHealth.cs"
+"Assets/Scripts/KillPlayer.cs"
 "Assets/Scripts/Knife.cs"
+"Assets/Scripts/MenuSettings.cs"
 "Assets/Scripts/OpenChest.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/SpiderWeb.cs"
 -langversion:9.0
 
 /deterministic
