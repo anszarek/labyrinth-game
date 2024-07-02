@@ -61,7 +61,8 @@ public class Knife : MonoBehaviour
                 attackTimer = attackCooldown;
             }
             else {
-                Debug.Log("Cannot shoot");
+                StartCoroutine(endAnimations());
+                attackTimer = attackCooldown;
             }
         }
 

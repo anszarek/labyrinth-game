@@ -18,10 +18,15 @@ public class EnemyController : MonoBehaviour
     private float idleTimer = 0;
     private Transform player;
 
+    //attack 
+    public int damage = 10;
+    public float attackCooldown = 1f;
+    private float attackTimer;
+
     private enum SpiderState { Idle, Walk, Run, Attack, Damage};  //Attack
     private SpiderState currentState = SpiderState.Idle;
 
-    private bool isRunningAnimation = false;  //////why??
+    //private bool isRunningAnimation = false;
 
     void Start()
     {
@@ -34,6 +39,9 @@ public class EnemyController : MonoBehaviour
 
     void Update()
     {
+        if (attackTimer > 0f) {
+            attackTimer -= Time.deltaTime;
+        }
         switch (currentState) {
             case SpiderState.Idle:
                 idleTimer += Time.deltaTime;
@@ -66,7 +74,7 @@ public class EnemyController : MonoBehaviour
                 agent.speed = runSpeed;
 
                 agent.SetDestination(player.position);
-                isRunningAnimation = true;   ////why?
+                //isRunningAnimation = true;
                 animator.SetBool("isWalking", false);
                 animator.SetBool("isRunning", true);
                 animator.SetBool("isAttacking", false);
@@ -91,14 +99,45 @@ public class EnemyController : MonoBehaviour
                 idleTimer = 0f;
                 animator.SetBool("isWalking", false);
                 animator.SetBool("isRunning", false);
-                animator.SetBool("isAttacking", true);
+                //animator.SetBool("isAttacking", true);
+
+                AttackPlayer();
 
                 if (Vector3.Distance(transform.position, player.position) > attackDistance) {
-                    currentState = SpiderState.Run;
-                    animator.SetBool("isAttacking", false);
+                currentState = SpiderState.Walk;
+                animator.SetBool("isAttacking", false);
                 }
+
                 break;
 
+        }
+    }
+
+
+    private void AttackPlayer() {
+        if (attackTimer <= 0f) {
+
+
+            animator.SetBool("isAttacking", true);
+
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, transform.forward, out hit, attackDistance)) {
+                if (hit.collider.CompareTag("Player")) {
+                    PlayerHealth playerHealth = hit.collider.GetComponent<PlayerHealth>();
+
+                    if (playerHealth != null) {
+                        playerHealth.TakeDamage(damage);
+                    }
+                }
+
+                StartCoroutine(endAnimations());
+                //start cooldown
+                attackTimer = attackCooldown;
+            }
+            else {
+                StartCoroutine(endAnimations());
+                attackTimer = attackCooldown;
+            }
         }
     }
 
@@ -124,6 +163,11 @@ public class EnemyController : MonoBehaviour
         currentState = SpiderState.Walk;
         agent.speed = walkSpeed;
         animator.enabled = true;
+    }
+
+    IEnumerator endAnimations() {
+        yield return new WaitForSeconds(attackTimer);
+        animator.SetBool("isAttacking", false);
     }
 
     //draw///////////////////////////////////////////////////////
