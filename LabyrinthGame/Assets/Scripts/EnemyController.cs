@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -124,12 +125,11 @@ public class EnemyController : MonoBehaviour
             if (Physics.Raycast(transform.position, transform.forward, out hit, attackDistance)) {
                 if (hit.collider.CompareTag("Player")) {
                     PlayerHealth playerHealth = hit.collider.GetComponent<PlayerHealth>();
-
+                    
                     if (playerHealth != null) {
                         playerHealth.TakeDamage(damage);
                     }
                 }
-
                 StartCoroutine(endAnimations());
                 //start cooldown
                 attackTimer = attackCooldown;
@@ -148,7 +148,6 @@ public class EnemyController : MonoBehaviour
         if (Physics.Raycast(transform.position, playerDirection.normalized, out hit, sightDistance)) {
             if (hit.collider.CompareTag("Player")) {
                 currentState = SpiderState.Run;
-                Debug.Log("Player detected!");
             }
         }
     }

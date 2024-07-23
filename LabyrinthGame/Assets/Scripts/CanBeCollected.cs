@@ -40,6 +40,7 @@ public class CanBeCollected : MonoBehaviour{
         if (inReach && Input.GetButtonDown("Interact")) {
             interactionUI.SetActive(false);
             objToActivate.SetActive(true);
+            //ob.GetComponent<BoxCollider>().enabled = false;
             ob.SetActive(false);
         }
     }
