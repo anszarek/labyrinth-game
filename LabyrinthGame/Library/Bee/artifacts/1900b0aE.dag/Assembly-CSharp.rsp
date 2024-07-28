@@ -369,6 +369,7 @@
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PlayerHealth.cs"
 "Assets/Scripts/SpiderWeb.cs"
+"Assets/Scripts/TorchController.cs"
 "Assets/Scripts/TrapController.cs"
 -langversion:9.0
 
