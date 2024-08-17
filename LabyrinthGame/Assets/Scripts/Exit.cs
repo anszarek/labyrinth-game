@@ -9,7 +9,9 @@ public class Exit : MonoBehaviour
     public GameObject interactionUI;
     public string myText;
     public TextMeshProUGUI interactionText;
-    public GameObject UITextInfo;
+    public GameObject informationUI;
+    public string myInfoText;
+    public TextMeshProUGUI informationText;
 
     public GameObject inventoryKey;
     public GameObject fadeFX;
@@ -22,7 +24,7 @@ public class Exit : MonoBehaviour
     void Start()
     {
         interactionUI.SetActive(false);
-        UITextInfo.SetActive(false);
+        informationUI.SetActive(false);
         inventoryKey.SetActive(false);
         fadeFX.SetActive(false);
     }
@@ -32,6 +34,7 @@ public class Exit : MonoBehaviour
             inReach = true;
             interactionText.text = myText;
             interactionUI.SetActive(true);
+            informationText.text = myInfoText;
         }
     }
 
@@ -40,7 +43,8 @@ public class Exit : MonoBehaviour
             inReach = false;
             interactionUI.SetActive(false);
             interactionText.text = "";
-            UITextInfo.SetActive(false);
+            informationUI.SetActive(false);
+            informationText.text = "";
         }
     }
 
@@ -48,11 +52,11 @@ public class Exit : MonoBehaviour
     {
         if (inReach && Input.GetButtonDown("Interact") && !inventoryKey.activeInHierarchy) {
             interactionUI.SetActive(true);
-            UITextInfo.SetActive(true);
+            informationUI.SetActive(true);
         }
         if (inReach && Input.GetButtonDown("Interact") && inventoryKey.activeInHierarchy) {
             interactionUI.SetActive(false);
-            UITextInfo.SetActive(false);
+            informationUI.SetActive(false);
             fadeFX.SetActive(true);
             StartCoroutine(endingGame());
         }

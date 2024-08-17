@@ -10,6 +10,7 @@ public class OpenChest : MonoBehaviour {
     public GameObject objToUnlock;
     public TextMeshProUGUI interactionText;
     private bool inReach;
+    public string myText;
 
 
     void Start()
@@ -22,7 +23,7 @@ public class OpenChest : MonoBehaviour {
     private void OnTriggerEnter(Collider other) {
         if (other.gameObject.tag == "Reach") {
             inReach = true;
-            interactionText.text = "Open the Chest";
+            interactionText.text = myText;
             interactionUI.SetActive(true);
         }
     }
