@@ -1,13 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class SpiderTrapController : MonoBehaviour
 {
     private GameObject ob;
-    public Animator spiderAnim;
-    public CapsuleCollider triggerCollider;
-    private bool inReach;
+    public Animator spiderTrapAnim;
+    public BoxCollider triggerCollider;
+    public GameObject model;
+    public GameObject spider;
+
+    
 
     void Start() {
         ob = this.gameObject;
@@ -15,21 +19,19 @@ public class SpiderTrapController : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other) {
-        if (other.gameObject.tag == "Reach") {
-            inReach = true;
-        }
-    }
-
-    private void OnTriggerExit(Collider other) {
-        if (other.gameObject.tag == "Reach") {
-            inReach = false;
-        }
-    }
-
-    void Update() {
-        if (inReach) {
+        if (other.gameObject.CompareTag("Reach")) {
             ob.GetComponent<Animator>().SetBool("start", true);
             triggerCollider.enabled = false;
+
+            StartCoroutine(EnableComponentsAfterDelay(2.0f));
         }
+    }
+
+    IEnumerator EnableComponentsAfterDelay(float delay) {
+        
+        yield return new WaitForSeconds(delay);
+        model.SetActive(false);
+        spider.SetActive(true);
+        
     }
 }
