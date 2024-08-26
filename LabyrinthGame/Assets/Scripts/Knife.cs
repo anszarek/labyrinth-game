@@ -13,6 +13,7 @@ public class Knife : MonoBehaviour
     private float attackTimer;
 
     public Animator knife;
+    public AudioSource sound;
 
     void Start()
     {
@@ -37,6 +38,7 @@ public class Knife : MonoBehaviour
         if (attackTimer <= 0f) {
 
             knife.SetBool("attack", true);
+            sound.Play();
 
             RaycastHit hit;
             if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, attackRange)) {

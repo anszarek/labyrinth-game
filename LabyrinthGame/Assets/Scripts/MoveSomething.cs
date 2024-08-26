@@ -11,6 +11,8 @@ public class MoveSomething : MonoBehaviour
     public string myText;
     public TextMeshProUGUI interactionText;
 
+    public AudioSource sound;
+
     private bool inReach;
 
     void Start() {
@@ -37,6 +39,7 @@ public class MoveSomething : MonoBehaviour
     void Update() {
         if (inReach && Input.GetButtonDown("Interact")) {
             interactionUI.SetActive(true);
+            sound.Play();
             bool isMoved = moveAnim.GetBool("moved");
             moveAnim.SetBool("moved", !isMoved);
         }

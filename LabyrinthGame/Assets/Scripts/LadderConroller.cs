@@ -11,6 +11,10 @@ public class LadderConroller : MonoBehaviour
     public TextMeshProUGUI interactionText;
     private bool inReach;
     public string myText;
+    public LadderConroller ladderController;
+
+
+    public AudioSource sound;
 
 
     void Start() {
@@ -37,10 +41,12 @@ public class LadderConroller : MonoBehaviour
 
     void Update() {
         if (inReach && Input.GetButtonDown("Interact")) {
+            sound.Play();
             interactionUI.SetActive(false);
             colliderToActivate.enabled = true;
             ob.GetComponent<Animator>().SetBool("move", true);
             ob.GetComponent<MeshCollider>().enabled = false;
+            ladderController.enabled = false;
         }
     }
 }

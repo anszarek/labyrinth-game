@@ -14,6 +14,10 @@ public class TorchController : MonoBehaviour
     public string myText;
     public TextMeshProUGUI interactionText;
 
+    public AudioSource torchSound;
+    public AudioSource wallSound;
+
+
     private bool inReach;
 
     void Start()
@@ -45,7 +49,9 @@ public class TorchController : MonoBehaviour
             interactionUI.SetActive(true);
             bool isMoved = torchAnim.GetBool("moved");
             torchAnim.SetBool("moved", !isMoved);
+            torchSound.Play();
             wallAnim.SetBool("moved", !isMoved);
+            wallSound.Play();
         }
     }
 

@@ -18,6 +18,8 @@ public class PlayerHealth : MonoBehaviour
     public float delay = 0.5f;
     public GameObject fadeout;
 
+    public AudioSource sound;
+
     private float durationTimer;
 
     private void Start() {
@@ -44,6 +46,7 @@ public class PlayerHealth : MonoBehaviour
     }
 
     public void TakeDamage(int damageAmount) {
+        sound.Play();
         currentHealth -= damageAmount;
         slider.value = currentHealth;
         durationTimer = 0;

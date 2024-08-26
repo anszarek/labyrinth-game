@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SpiderWeb : MonoBehaviour {
     public int resistance = 10;
+    public AudioSource sound;
     private int currentResistance;
 
 
@@ -13,9 +14,16 @@ public class SpiderWeb : MonoBehaviour {
 
     public void TakeDamage(int damageAmount) {
         currentResistance -= damageAmount;
-
+        sound.Play();
         if (currentResistance <= 0) {
-            gameObject.SetActive(false);
+            StartCoroutine(DisableAfterDelay(0.5f));
         }
+    }
+
+    IEnumerator DisableAfterDelay(float delay) {
+
+        yield return new WaitForSeconds(delay);
+        gameObject.SetActive(false);
+
     }
 }

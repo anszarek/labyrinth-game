@@ -8,8 +8,12 @@ public class CanBeCollected : MonoBehaviour{
     private GameObject ob;
     public GameObject interactionUI;
     public GameObject objToActivate;
+    public GameObject objToDeactivate;
     public string myText;
     public TextMeshProUGUI interactionText;
+
+    public AudioSource sound;
+
 
     private bool inReach;
 
@@ -38,10 +42,22 @@ public class CanBeCollected : MonoBehaviour{
 
     void Update() {
         if (inReach && Input.GetButtonDown("Interact")) {
+            sound.Play();
             interactionUI.SetActive(false);
-            objToActivate.SetActive(true);
+            //objToActivate.SetActive(true);
+            objToDeactivate.SetActive(false);
             //ob.GetComponent<BoxCollider>().enabled = false;
-            ob.SetActive(false);
+            //ob.SetActive(false);
+            StartCoroutine(DisableAfterDelay(0.3f));
         }
+    }
+
+    IEnumerator DisableAfterDelay(float delay) {
+
+        yield return new WaitForSeconds(delay);
+        objToActivate.SetActive(true);
+        //objToDeactivate.SetActive(false);
+        ob.SetActive(false);
+
     }
 }

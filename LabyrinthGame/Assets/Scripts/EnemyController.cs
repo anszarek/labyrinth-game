@@ -19,6 +19,10 @@ public class EnemyController : MonoBehaviour
     private float idleTimer = 0;
     private Transform player;
 
+    //sound
+    public AudioSource attackSound;
+    public AudioSource idleSound;
+
     //attack 
     public int damage = 10;
     public float attackCooldown = 1f;
@@ -45,6 +49,7 @@ public class EnemyController : MonoBehaviour
         }
         switch (currentState) {
             case SpiderState.Idle:
+                idleSound.Play();
                 idleTimer += Time.deltaTime;
                 animator.SetBool("isWalking", false);
                 animator.SetBool("isRunning", false);
@@ -100,7 +105,7 @@ public class EnemyController : MonoBehaviour
                 idleTimer = 0f;
                 animator.SetBool("isWalking", false);
                 animator.SetBool("isRunning", false);
-                //animator.SetBool("isAttacking", true);
+                animator.SetBool("isAttacking", true);
 
                 AttackPlayer();
 
@@ -118,7 +123,7 @@ public class EnemyController : MonoBehaviour
     private void AttackPlayer() {
         if (attackTimer <= 0f) {
 
-
+            attackSound.Play();
             animator.SetBool("isAttacking", true);
 
             RaycastHit hit;

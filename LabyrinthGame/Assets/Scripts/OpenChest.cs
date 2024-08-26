@@ -11,6 +11,8 @@ public class OpenChest : MonoBehaviour {
     public TextMeshProUGUI interactionText;
     private bool inReach;
     public string myText;
+    public OpenChest openChest;
+    public AudioSource sound;
 
 
     void Start()
@@ -39,10 +41,12 @@ public class OpenChest : MonoBehaviour {
     void Update()
     {
         if(inReach && Input.GetButtonDown("Interact")) {
+            sound.Play();
             interactionUI.SetActive(false);
             objToUnlock.SetActive(true);
             ob.GetComponent<Animator>().SetBool("open", true);
             ob.GetComponent<BoxCollider>().enabled = false;
+            openChest.enabled = false;
         }
     }
 }

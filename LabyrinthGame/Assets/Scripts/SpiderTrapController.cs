@@ -23,7 +23,7 @@ public class SpiderTrapController : MonoBehaviour
             ob.GetComponent<Animator>().SetBool("start", true);
             triggerCollider.enabled = false;
 
-            StartCoroutine(EnableComponentsAfterDelay(2.0f));
+            StartCoroutine(EnableComponentsAfterDelay(1.5f));
         }
     }
 

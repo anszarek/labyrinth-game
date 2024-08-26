@@ -14,6 +14,8 @@ public class TrapController : MonoBehaviour
 
     public Animator trapAnim;
 
+    public AudioSource sound;
+
     private void Start() {
         trapAnim.SetBool("active", false);
         attackTimer = startAttackTime;
@@ -37,6 +39,7 @@ public class TrapController : MonoBehaviour
         if (attackTimer <= 0f) {
 
             trapAnim.SetBool("active", true);
+            sound.Play();
 
             RaycastHit hit;
             if (Physics.Raycast(transform.position, transform.forward, out hit, attackRange)) {

@@ -26,7 +26,13 @@ public class PlayerController : MonoBehaviour
     public float cameraRotationSmooth = 5f;
 
     //Sounds
-    //////////////////////////////////////////////////////////////
+    public AudioClip[] footstepSounds;
+    public Transform footstepAudioPosition;
+    public AudioSource audioSource;
+
+    private bool isWalking = false;
+    private bool isFootstepCoroutineRunning = false;
+    private AudioClip[] currentFootstepSounds;
 
     //Can move?
     private bool canMove = true;
@@ -39,6 +45,8 @@ public class PlayerController : MonoBehaviour
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+        currentFootstepSounds = footstepSounds;
     }
 
 
@@ -88,6 +96,40 @@ public class PlayerController : MonoBehaviour
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotationY, Time.deltaTime * cameraRotationSmooth);
         }
 
+        if ((currentSpeedX != 0f || currentSpeedY != 0f) && !isWalking && !isFootstepCoroutineRunning) {
+            isWalking = true;
+            StartCoroutine(PlayFootstepSounds(2.0f / (isRunning ? runSpeed : walkSpeed)));
+        }
+        else if (currentSpeedX == 0f && currentSpeedY == 0f) {
+            isWalking = false;
+        }
 
+    }
+
+    // Play footstep sounds 
+    IEnumerator PlayFootstepSounds(float footstepDelay) {
+        isFootstepCoroutineRunning = true;
+
+        while (isWalking) {
+            if (currentFootstepSounds.Length > 0) {
+                int randomIndex = Random.Range(0, currentFootstepSounds.Length);
+                audioSource.transform.position = footstepAudioPosition.position;
+                audioSource.clip = currentFootstepSounds[randomIndex];
+                audioSource.Play();
+                yield return new WaitForSeconds(footstepDelay);
+            }
+            else {
+                yield break;
+            }
+        }
+
+        isFootstepCoroutineRunning = false;
+    }
+
+    // Detect surface
+    private void OnTriggerEnter(Collider other) {
+        if (other.CompareTag("Floor")) {
+            currentFootstepSounds = footstepSounds;
+        }
     }
 }

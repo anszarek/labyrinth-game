@@ -9,6 +9,8 @@ public class WheelchairController : MonoBehaviour
     public BoxCollider triggerCollider;
     private bool inReach;
 
+    public AudioSource sound;
+
     void Start() {
         ob = this.gameObject;
         triggerCollider.enabled = true;
@@ -17,6 +19,7 @@ public class WheelchairController : MonoBehaviour
     private void OnTriggerEnter(Collider other) {
         if (other.gameObject.tag == "Reach") {
             inReach = true;
+            sound.Play();
         }
     }
 
