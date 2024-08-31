@@ -167,14 +167,14 @@ public class BluetoothController : MonoBehaviour
         }
         {
             // log potential errors
-            BleApi.ErrorMessage res = new BleApi.ErrorMessage();
-            BleApi.GetError(out res);
-            if (lastError != res.msg)
-            {
-                Debug.LogError(res.msg);
-                errorText.text = res.msg;
-                lastError = res.msg;
-            }
+            //BleApi.ErrorMessage res = new BleApi.ErrorMessage();
+            //BleApi.GetError(out res);
+            //if (lastError != res.msg)
+            //{
+            //    Debug.LogError(res.msg);
+            //    errorText.text = res.msg;
+            //    lastError = res.msg;
+            //}
         }
     }
 

@@ -362,6 +362,7 @@
 "Assets/Scripts/BluetoothController.cs"
 "Assets/Scripts/CanBeCollected.cs"
 "Assets/Scripts/CursorSettings.cs"
+"Assets/Scripts/EmotiosGameController.cs"
 "Assets/Scripts/EnemyAudioController.cs"
 "Assets/Scripts/EnemyController.cs"
 "Assets/Scripts/EnemyHealth.cs"
