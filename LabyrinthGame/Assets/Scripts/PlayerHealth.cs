@@ -23,7 +23,6 @@ public class PlayerHealth : MonoBehaviour
     private float durationTimer;
 
     private void Start() {
-        Time.timeScale = 1f;
         currentHealth = maxHealth;
         slider.maxValue = maxHealth;
         slider.value = currentHealth;
