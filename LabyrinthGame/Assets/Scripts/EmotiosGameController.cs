@@ -56,29 +56,36 @@ public class EmotiosGameController : MonoBehaviour
             int currentValue;
             if(int.TryParse(HeartRateValue.text, out currentValue)) {
 
-                if (currentValue > 95) {
-                    
+                float thisPulse = Mathf.Clamp(currentValue, 70, 100);
+                float normalizedPulse = Mathf.InverseLerp(70, 100, thisPulse);
+
+                
+                // light
+                phoneFlashlight.range = Mathf.Lerp(originalRange, 20f, normalizedPulse);
+
+                
+
+                if (currentValue >= 90) {
+
                     //color
+
                     HeartRateValue.color = Color.red;
 
-                    //change the visibility
-                    phoneFlashlight.range = 15f;
+                    //add heartbeat sound
+
+                    if (heartbeatSound != null && !heartbeatSound.isPlaying) {
+                        heartbeatSound.Play();
+                    }
 
                     //change the traps cooldown
 
                     if (trapControllers != null) {
                         foreach (TrapController trapController in trapControllers) {
                             if (trapController != null) {
-                                float randomCooldown = Random.Range(1f, 10f);
+                                float randomCooldown = Random.Range(1f, 4f);
                                 trapController.attackCooldown = randomCooldown;
                             }
                         }
-                    }
-
-                    //add heartbeat sound
-
-                    if (heartbeatSound != null && !heartbeatSound.isPlaying) {
-                        heartbeatSound.Play();
                     }
 
                     //enemies changes (area of detection player, attack power and frequency)
@@ -89,14 +96,14 @@ public class EmotiosGameController : MonoBehaviour
                                 if (enemyControllers[i] != null) {
                                     if (i == 0) {
                                         // First enemy (monster)
-                                        enemyControllers[i].sightDistance = 30f;
+                                        enemyControllers[i].sightDistance = 35f;
                                         enemyControllers[i].damage = 30;
                                         enemyControllers[i].attackCooldown = 1.5f;
                                     }
                                     else {
                                         // Other enemies (spiders)
-                                        enemyControllers[i].sightDistance = 20f;
-                                        enemyControllers[i].damage = 15;
+                                        enemyControllers[i].sightDistance = 22f;
+                                        enemyControllers[i].damage = 20;
                                         enemyControllers[i].attackCooldown = 1.5f;
                                     }
                                 }
@@ -104,12 +111,63 @@ public class EmotiosGameController : MonoBehaviour
                         }
                     }
 
-                } else {
+                }
+                else if (currentValue >= 80 && currentValue < 90) {
+
                     //color
                     HeartRateValue.color = originalColor;
 
-                    //visibility
-                    phoneFlashlight.range = originalRange;
+                    //sound
+
+                    if (heartbeatSound != null && heartbeatSound.isPlaying) {
+                        heartbeatSound.Stop();
+                    }
+
+                    //change the traps cooldown
+
+                    if (trapControllers != null) {
+                        foreach (TrapController trapController in trapControllers) {
+                            if (trapController != null) {
+                                float randomCooldown = Random.Range(4f, 6f);
+                                trapController.attackCooldown = randomCooldown;
+                            }
+                        }
+                    }
+
+                    //enemies changes (area of detection player, attack power and frequency)
+
+                    foreach (EnemyController enemyController in enemyControllers) {
+                        if (enemyController != null) {
+                            for (int i = 0; i < enemyControllers.Length; i++) {
+                                if (enemyControllers[i] != null) {
+                                    if (i == 0) {
+                                        // First enemy (monster)
+                                        enemyControllers[i].sightDistance = 28f;
+                                        enemyControllers[i].damage = 25;
+                                        enemyControllers[i].attackCooldown = 1.7f;
+                                    }
+                                    else {
+                                        // Other enemies (spiders)
+                                        enemyControllers[i].sightDistance = 18f;
+                                        enemyControllers[i].damage = 15;
+                                        enemyControllers[i].attackCooldown = 1.7f;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+                else {
+
+                    //color
+                    HeartRateValue.color = originalColor;
+
+                    //sound
+
+                    if (heartbeatSound != null && heartbeatSound.isPlaying) {
+                        heartbeatSound.Stop();
+                    }
 
                     //trap
                     if (trapControllers != null) {
@@ -118,11 +176,6 @@ public class EmotiosGameController : MonoBehaviour
                                 trapController.attackCooldown = originalTrapCooldown;
                             }
                         }
-                    }
-
-                    //sound
-                    if (heartbeatSound != null && heartbeatSound.isPlaying) {
-                        heartbeatSound.Stop();
                     }
 
                     //enemy
@@ -136,8 +189,9 @@ public class EmotiosGameController : MonoBehaviour
                         }
                     }
                 }
+
             }
-            else{
+            else {
 
             }
 

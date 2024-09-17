@@ -9,6 +9,7 @@ using UnityEngine.UI;
 
 public class BluetoothController : MonoBehaviour
 {
+
     public bool isScanningDevices = false;
     public bool isScanningServices = false;
     public bool isScanningCharacteristics = false;
@@ -282,4 +283,5 @@ public class BluetoothController : MonoBehaviour
         // no error code available in non-blocking mode
         BleApi.SendData(in data, false);
     }
+
 }

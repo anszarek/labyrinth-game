@@ -9,8 +9,8 @@ public class PlayerController : MonoBehaviour
     public Camera playerCamera;
 
     //Movement
-    public float walkSpeed = 3f;
-    public float runSpeed = 5f;
+    public float walkSpeed = 4f;
+    public float runSpeed = 5.5f;
     public float gravity = 10f;
     
     private float currentSpeedX;
