@@ -8,4 +8,5 @@ A computer game that uses the concepts of affective computing to measure and res
 The project was created using Blender for design and Unity for game development, with the implementation of the solutions coded in C#. Most of the assets were obtained from free sources. 
 
 Pulse measurement - Heart Rate Sensor (Polar) connected to the unity engine via bluetooth.
+Facial emotion recognition - emotions are detected in real-time using Python and predictions are sent to Unity
 
