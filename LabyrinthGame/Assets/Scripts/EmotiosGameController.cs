@@ -98,13 +98,13 @@ public class EmotiosGameController : MonoBehaviour
                                         // First enemy (monster)
                                         enemyControllers[i].sightDistance = 35f;
                                         enemyControllers[i].damage = 30;
-                                        enemyControllers[i].attackCooldown = 1.5f;
+                                        enemyControllers[i].attackCooldown = 0.8f;
                                     }
                                     else {
                                         // Other enemies (spiders)
                                         enemyControllers[i].sightDistance = 22f;
                                         enemyControllers[i].damage = 20;
-                                        enemyControllers[i].attackCooldown = 1.5f;
+                                        enemyControllers[i].attackCooldown = 0.8f;
                                     }
                                 }
                             }
@@ -144,13 +144,13 @@ public class EmotiosGameController : MonoBehaviour
                                         // First enemy (monster)
                                         enemyControllers[i].sightDistance = 28f;
                                         enemyControllers[i].damage = 25;
-                                        enemyControllers[i].attackCooldown = 1.7f;
+                                        enemyControllers[i].attackCooldown = 1f;
                                     }
                                     else {
                                         // Other enemies (spiders)
                                         enemyControllers[i].sightDistance = 18f;
                                         enemyControllers[i].damage = 15;
-                                        enemyControllers[i].attackCooldown = 1.7f;
+                                        enemyControllers[i].attackCooldown = 1f;
                                     }
                                 }
                             }

@@ -1,278 +1,275 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1726574447415485, "dur":21076, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1726574447436636, "dur":541, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1726574447437213, "dur":3904, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1726574447441120, "dur":173670, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1726574447614792, "dur":266, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1726574447615193, "dur":1318, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1726574447437379, "dur":3758, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1726574447441142, "dur":4068, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1726574447446508, "dur":551, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":1, "ts":1726574447447062, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1726574447447141, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1726574447447212, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1726574447447427, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ania\\Documents\\magisterka\\labyrinth-game\\LabyrinthGame\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1726574447447479, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ania\\Documents\\magisterka\\labyrinth-game\\LabyrinthGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Postprocessing.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1726574447447607, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ania\\Documents\\magisterka\\labyrinth-game\\LabyrinthGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll" }}
-,{ "pid":12345, "tid":1, "ts":1726574447447659, "dur":335, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ania\\Documents\\magisterka\\labyrinth-game\\LabyrinthGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1726574447447995, "dur":194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ania\\Documents\\magisterka\\labyrinth-game\\LabyrinthGame\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1726574447448190, "dur":259, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ania\\Documents\\magisterka\\labyrinth-game\\LabyrinthGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1726574447448450, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ania\\Documents\\magisterka\\labyrinth-game\\LabyrinthGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1726574447448579, "dur":254, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ania\\Documents\\magisterka\\labyrinth-game\\LabyrinthGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1726574447448834, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ania\\Documents\\magisterka\\labyrinth-game\\LabyrinthGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1726574447448986, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player3397e6e0-inputdata.json" }}
-,{ "pid":12345, "tid":1, "ts":1726574447447061, "dur":2088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1726574447449659, "dur":161386, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1726574447613698, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1726574447613697, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Lost in the Dark_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1726574447613801, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1726574447437440, "dur":3730, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1726574447441174, "dur":626, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1726574447441801, "dur":3417, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1726574447445226, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":2, "ts":1726574447450199, "dur":2414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":2, "ts":1726574447452709, "dur":4888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1726574447457683, "dur":3125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1726574447460854, "dur":2380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":2, "ts":1726574447463295, "dur":4634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1726574447473181, "dur":130, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1726574447468045, "dur":5284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1726574447473406, "dur":4476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1726574447477927, "dur":11419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1726574447489527, "dur":4016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":2, "ts":1726574447493692, "dur":121101, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1726574447437676, "dur":3527, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1726574447441208, "dur":764, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1726574447441972, "dur":3329, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1726574447445302, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1726574447445387, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1726574447456803, "dur":1578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1726574447458483, "dur":2899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":3, "ts":1726574447461432, "dur":2872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1726574447464358, "dur":4415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1726574447468827, "dur":3182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1726574447472061, "dur":5520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1726574447477640, "dur":4513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1726574447482369, "dur":3789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":3, "ts":1726574447486204, "dur":2713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/level2" }}
-,{ "pid":12345, "tid":3, "ts":1726574447488967, "dur":5239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1726574447494244, "dur":120560, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1726574447437407, "dur":3739, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1726574447441158, "dur":888, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1726574447442046, "dur":3168, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1726574447445228, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":4, "ts":1726574447445219, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":4, "ts":1726574447445285, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1726574447448729, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":4, "ts":1726574447449873, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1726574447450079, "dur":1817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1726574447452038, "dur":4444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":4, "ts":1726574447456558, "dur":2356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":4, "ts":1726574447458972, "dur":3421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":4, "ts":1726574447462438, "dur":4406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1726574447466912, "dur":3935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1726574447470905, "dur":5945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1726574447476907, "dur":3991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1726574447480958, "dur":9310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1726574447490325, "dur":124482, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1726574447437432, "dur":3730, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1726574447441165, "dur":716, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1726574447441881, "dur":3341, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1726574447445243, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":5, "ts":1726574447445224, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1726574447445364, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1726574447455293, "dur":2363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1726574447457713, "dur":4631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":5, "ts":1726574447462415, "dur":4032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1726574447466486, "dur":3827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1726574447470397, "dur":5673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1726574447476114, "dur":4417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1726574447480608, "dur":37377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":5, "ts":1726574447518020, "dur":96778, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1726574447437550, "dur":3629, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1726574447441183, "dur":638, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1726574447441821, "dur":3417, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1726574447445240, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1726574447445354, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1726574447452781, "dur":1758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1726574447454600, "dur":4557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":6, "ts":1726574447459221, "dur":3111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":6, "ts":1726574447462373, "dur":3804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1726574447466222, "dur":4156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1726574447470442, "dur":5493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1726574447475979, "dur":3112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1726574447479156, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":6, "ts":1726574447480517, "dur":81, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1726574447490222, "dur":87, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1726574447480599, "dur":9719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":6, "ts":1726574447490441, "dur":124348, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1726574447437669, "dur":3519, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1726574447441193, "dur":736, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1726574447441929, "dur":3333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1726574447445265, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1726574447445355, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1726574447450878, "dur":1280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1726574447452214, "dur":5496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":7, "ts":1726574447457754, "dur":2983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":7, "ts":1726574447460787, "dur":2398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":7, "ts":1726574447463232, "dur":4182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1726574447467489, "dur":3624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1726574447471160, "dur":5785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1726574447476995, "dur":3628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1726574447480689, "dur":8787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":7, "ts":1726574447489560, "dur":2813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":7, "ts":1726574447492410, "dur":122391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1726574447437747, "dur":3489, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1726574447441237, "dur":3993, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1726574447445246, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1726574447445232, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1726574447445356, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1726574447449653, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1726574447451154, "dur":2213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":8, "ts":1726574447453432, "dur":4182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":8, "ts":1726574447457718, "dur":2988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":8, "ts":1726574447460770, "dur":2205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1726574447463041, "dur":3837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1726574447466940, "dur":3393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1726574447470379, "dur":5249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1726574447475670, "dur":2959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1726574447479488, "dur":18162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Plugins/x86_64/BleWinrtDll.dll" }}
-,{ "pid":12345, "tid":8, "ts":1726574447497704, "dur":117091, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1726574447437703, "dur":3512, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1726574447441219, "dur":672, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1726574447441891, "dur":3342, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1726574447445235, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":9, "ts":1726574447445285, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1726574447449291, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":9, "ts":1726574447450552, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1726574447450966, "dur":1294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":9, "ts":1726574447452318, "dur":5570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":9, "ts":1726574447457932, "dur":3045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":9, "ts":1726574447461013, "dur":187, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1726574447461202, "dur":2889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1726574447464136, "dur":4350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1726574447468532, "dur":3259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1726574447471846, "dur":5217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1726574447477116, "dur":3978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1726574447481136, "dur":7392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":9, "ts":1726574447488585, "dur":2973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/level0" }}
-,{ "pid":12345, "tid":9, "ts":1726574447491601, "dur":123201, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1726574447437727, "dur":3499, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1726574447441230, "dur":474, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1726574447441705, "dur":3545, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1726574447445252, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":10, "ts":1726574447445358, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1726574447452788, "dur":3336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":10, "ts":1726574447456207, "dur":2411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":10, "ts":1726574447458677, "dur":2919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":10, "ts":1726574447461644, "dur":3801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1726574447465493, "dur":4304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1726574447469845, "dur":4603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1726574447474501, "dur":3736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1726574447484159, "dur":135, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1726574447478295, "dur":6076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1726574447484477, "dur":3821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/level2.resS" }}
-,{ "pid":12345, "tid":10, "ts":1726574447488355, "dur":3721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/level1" }}
-,{ "pid":12345, "tid":10, "ts":1726574447492127, "dur":122678, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1726574447437776, "dur":3471, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1726574447441248, "dur":3978, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1726574447445229, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":11, "ts":1726574447451438, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":11, "ts":1726574447453597, "dur":4605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":11, "ts":1726574447458248, "dur":3394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":11, "ts":1726574447461689, "dur":3718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1726574447465451, "dur":3549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1726574447469062, "dur":4159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1726574447473295, "dur":73, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1726574447473370, "dur":4732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1726574447478149, "dur":12998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1726574447491189, "dur":123598, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1726574447437816, "dur":3452, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1726574447441269, "dur":3944, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1726574447445229, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":12, "ts":1726574447445219, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":12, "ts":1726574447445284, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1726574447448034, "dur":2980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":12, "ts":1726574447451102, "dur":2896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark.exe" }}
-,{ "pid":12345, "tid":12, "ts":1726574447454134, "dur":4164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":12, "ts":1726574447458442, "dur":3382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":12, "ts":1726574447461899, "dur":3813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1726574447465777, "dur":4181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1726574447470016, "dur":4868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1726574447475025, "dur":3973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1726574447479070, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":12, "ts":1726574447479069, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":12, "ts":1726574447479196, "dur":24614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":12, "ts":1726574447503864, "dur":110936, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1726574447437797, "dur":3461, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1726574447441258, "dur":3998, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1726574447445267, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1726574447445258, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1726574447445361, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1726574447457092, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1726574447454615, "dur":2540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1726574447461082, "dur":183, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1726574447457216, "dur":4058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726574447461344, "dur":2563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726574447463976, "dur":4106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726574447468175, "dur":3718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726574447471972, "dur":4851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726574447476902, "dur":4992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726574447481949, "dur":2204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":13, "ts":1726574447484224, "dur":111, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1726574447484338, "dur":7489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/resources.assets" }}
-,{ "pid":12345, "tid":13, "ts":1726574447491887, "dur":122919, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1726574447437928, "dur":3360, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1726574447441289, "dur":3923, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1726574447446105, "dur":523, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":14, "ts":1726574447446853, "dur":2356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/app.info" }}
-,{ "pid":12345, "tid":14, "ts":1726574447449250, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1726574447449531, "dur":1690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":14, "ts":1726574447451300, "dur":78, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1726574447451709, "dur":4638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":14, "ts":1726574447456411, "dur":2282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":14, "ts":1726574447458745, "dur":3204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":14, "ts":1726574447462012, "dur":3623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1726574447465683, "dur":3596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1726574447469391, "dur":2657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1726574447472091, "dur":5312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1726574447477448, "dur":10780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1726574447488395, "dur":3622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/level0.resS" }}
-,{ "pid":12345, "tid":14, "ts":1726574447492057, "dur":122735, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1726574447437846, "dur":3430, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1726574447441276, "dur":3967, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1726574447445255, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":15, "ts":1726574447445245, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":15, "ts":1726574447447776, "dur":1429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":15, "ts":1726574447449275, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1726574447449521, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":15, "ts":1726574447451425, "dur":2705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":15, "ts":1726574447459626, "dur":77, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1726574447454204, "dur":5508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":15, "ts":1726574447459836, "dur":3906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/Unity.AI.Navigation.dll" }}
-,{ "pid":12345, "tid":15, "ts":1726574447463808, "dur":3752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1726574447467616, "dur":4111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1726574447471790, "dur":5361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1726574447477210, "dur":3250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1726574447480530, "dur":107832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":15, "ts":1726574447588395, "dur":26404, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1726574447437869, "dur":3412, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1726574447441282, "dur":3933, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1726574447447504, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":16, "ts":1726574447449114, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1726574447449515, "dur":1489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":16, "ts":1726574447451166, "dur":5770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":16, "ts":1726574447456996, "dur":2517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":16, "ts":1726574447459566, "dur":3188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":16, "ts":1726574447462798, "dur":3579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1726574447466416, "dur":3417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1726574447469893, "dur":4070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1726574447474016, "dur":3856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1726574447477920, "dur":3745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1726574447483383, "dur":90, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1726574447481728, "dur":1769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":16, "ts":1726574447483570, "dur":3795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":16, "ts":1726574447487424, "dur":3915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Lost in the Dark_Data/level1.resS" }}
-,{ "pid":12345, "tid":16, "ts":1726574447491397, "dur":123399, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1726574447618560, "dur":820, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1726664253085332, "dur":18800, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726664253104136, "dur":71, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726664253104233, "dur":426, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726664253105545, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726664253105766, "dur":111, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726664253105934, "dur":132, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726664253106282, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726664253107328, "dur":113, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726664253104680, "dur":4075, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726664253108756, "dur":161927, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726664253270684, "dur":102, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726664253270786, "dur":119, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726664253270905, "dur":66, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726664253270971, "dur":124, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726664253271261, "dur":1929, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1726664253104993, "dur":3792, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726664253108787, "dur":545, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726664253109332, "dur":3224, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726664253112558, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1726664253121289, "dur":4824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1726664253126180, "dur":3561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726664253129800, "dur":3585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726664253133427, "dur":5230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726664253138723, "dur":6248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726664253145024, "dur":2861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726664253147928, "dur":5596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726664253153575, "dur":13746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1726664253167394, "dur":103310, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726664253104903, "dur":3873, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726664253108778, "dur":616, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726664253109394, "dur":3166, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726664253112586, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1726664253112562, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1726664253122188, "dur":3310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1726664253125545, "dur":2885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726664253128478, "dur":3408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726664253131951, "dur":5125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726664253137116, "dur":5039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726664253142200, "dur":5612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726664253147863, "dur":6385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726664253167282, "dur":69, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726664253154286, "dur":13079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1726664253167428, "dur":103257, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726664253104771, "dur":3993, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726664253108766, "dur":3768, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726664253119366, "dur":665, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":3, "ts":1726664253120034, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1726664253120143, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1726664253120447, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ania\\Documents\\magisterka\\labyrinth-game\\LabyrinthGame\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726664253120566, "dur":295, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ania\\Documents\\magisterka\\labyrinth-game\\LabyrinthGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726664253120863, "dur":160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ania\\Documents\\magisterka\\labyrinth-game\\LabyrinthGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726664253121025, "dur":737, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ania\\Documents\\magisterka\\labyrinth-game\\LabyrinthGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726664253121764, "dur":364, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ania\\Documents\\magisterka\\labyrinth-game\\LabyrinthGame\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726664253122129, "dur":441, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ania\\Documents\\magisterka\\labyrinth-game\\LabyrinthGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726664253122572, "dur":176, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ania\\Documents\\magisterka\\labyrinth-game\\LabyrinthGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726664253122749, "dur":365, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ania\\Documents\\magisterka\\labyrinth-game\\LabyrinthGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726664253123116, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Ania\\Documents\\magisterka\\labyrinth-game\\LabyrinthGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726664253123320, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerbe28934a-inputdata.json" }}
+,{ "pid":12345, "tid":3, "ts":1726664253120033, "dur":3469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1726664253123763, "dur":67, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726664253124395, "dur":142337, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1726664253269202, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1726664253269202, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1726664253269294, "dur":1305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1726664253104877, "dur":3892, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726664253108773, "dur":506, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726664253109279, "dur":3274, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726664253112558, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1726664253114596, "dur":2247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1726664253116871, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1726664253117035, "dur":2102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1726664253119167, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1726664253119506, "dur":5640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1726664253125194, "dur":2803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726664253128039, "dur":4092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726664253132179, "dur":4934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726664253137166, "dur":4948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726664253142178, "dur":5416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726664253147636, "dur":6248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726664253157942, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1726664253159957, "dur":9742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1726664253169740, "dur":100950, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726664253104938, "dur":3843, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726664253108782, "dur":587, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726664253109370, "dur":3182, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726664253112564, "dur":149, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":5, "ts":1726664253112553, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1726664253120212, "dur":3409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1726664253123684, "dur":2958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726664253126691, "dur":3509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726664253130238, "dur":4538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726664253134824, "dur":4712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726664253139599, "dur":6888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726664253146521, "dur":3034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726664253149598, "dur":4149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1726664253153793, "dur":11182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1726664253165022, "dur":105669, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726664253105018, "dur":3772, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726664253108791, "dur":535, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726664253109326, "dur":3239, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726664253112565, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1726664253115017, "dur":1885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1726664253116926, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1726664253116925, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1726664253117108, "dur":2154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1726664253119593, "dur":4411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726664253124056, "dur":3852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726664253127951, "dur":2805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726664253130800, "dur":4679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726664253135524, "dur":4150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726664253139706, "dur":6510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726664253146270, "dur":3662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726664253149971, "dur":58192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1726664253208192, "dur":62508, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726664253105202, "dur":3592, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726664253108796, "dur":514, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726664253109310, "dur":3254, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726664253112573, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1726664253112564, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1726664253115250, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1726664253116747, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":7, "ts":1726664253116746, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1726664253117051, "dur":1763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1726664253118891, "dur":3538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark.exe" }}
+,{ "pid":12345, "tid":7, "ts":1726664253122527, "dur":1883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726664253124459, "dur":3169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726664253127670, "dur":3459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726664253131173, "dur":5013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726664253136217, "dur":4345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726664253140625, "dur":6403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726664253147073, "dur":3365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726664253150484, "dur":12385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1726664253162963, "dur":7927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1726664253170924, "dur":99779, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726664253105239, "dur":3560, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726664253108801, "dur":627, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726664253109428, "dur":3110, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726664253112559, "dur":144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1726664253112547, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1726664253117686, "dur":5403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1726664253123144, "dur":2659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726664253125847, "dur":3477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726664253129374, "dur":2886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726664253132320, "dur":4847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726664253137234, "dur":4905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726664253142194, "dur":5707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726664253147942, "dur":6279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726664253154262, "dur":9753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1726664253164130, "dur":6637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1726664253170807, "dur":99901, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726664253105426, "dur":3377, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726664253108805, "dur":509, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726664253109314, "dur":3244, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726664253112558, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1726664253112642, "dur":53, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726664253115774, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1726664253117018, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1726664253117325, "dur":1991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1726664253119545, "dur":3989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726664253123620, "dur":2697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726664253126365, "dur":3155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726664253129557, "dur":2813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726664253132429, "dur":5451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726664253137912, "dur":4186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726664253142169, "dur":5950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726664253148161, "dur":6148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726664253154353, "dur":10539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/level2.resS" }}
+,{ "pid":12345, "tid":9, "ts":1726664253164957, "dur":6309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1726664253171304, "dur":99383, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1726664253105485, "dur":3324, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1726664253108810, "dur":3726, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1726664253112555, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1726664253118780, "dur":3025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1726664253121827, "dur":1880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1726664253123792, "dur":2777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1726664253126617, "dur":3442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1726664253130122, "dur":4660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1726664253134818, "dur":4766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1726664253139642, "dur":6269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1726664253145954, "dur":3227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1726664253149211, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1726664253149210, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1726664253149332, "dur":29598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1726664253178956, "dur":91730, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1726664253105510, "dur":3306, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1726664253108816, "dur":3725, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1726664253112548, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1726664253116124, "dur":1494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1726664253117649, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726664253117647, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726664253118154, "dur":4944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726664253123151, "dur":2971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726664253126173, "dur":3389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726664253129609, "dur":3867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726664253133509, "dur":5013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726664253138568, "dur":6395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726664253145013, "dur":3231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726664253148281, "dur":6104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726664253154425, "dur":10493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1726664253164953, "dur":105713, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1726664253105574, "dur":3247, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1726664253108821, "dur":3718, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1726664253112557, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1726664253112547, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1726664253114687, "dur":2267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1726664253116985, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1726664253117113, "dur":2433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1726664253119629, "dur":3145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726664253122825, "dur":2383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726664253125264, "dur":2846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726664253128173, "dur":2750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726664253130987, "dur":4681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726664253135712, "dur":4480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726664253140240, "dur":6433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726664253146720, "dur":3450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726664253150210, "dur":32599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":12, "ts":1726664253182843, "dur":87853, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1726664253105700, "dur":3127, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1726664253108827, "dur":3727, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1726664253112590, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1726664253112554, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1726664253116798, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1726664253118003, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":13, "ts":1726664253118002, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":13, "ts":1726664253118180, "dur":11710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":13, "ts":1726664253129928, "dur":3937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1726664253133933, "dur":5430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1726664253139423, "dur":6316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1726664253145781, "dur":3013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1726664253149395, "dur":16064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Plugins/x86_64/BleWinrtDll.dll" }}
+,{ "pid":12345, "tid":13, "ts":1726664253165496, "dur":105169, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1726664253105725, "dur":3106, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1726664253108832, "dur":3731, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1726664253112563, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1726664253120762, "dur":3545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1726664253124391, "dur":3164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1726664253127616, "dur":3732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1726664253131394, "dur":4926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1726664253136366, "dur":4461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1726664253140867, "dur":6131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1726664253147063, "dur":3416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1726664253150523, "dur":13886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1726664253164521, "dur":8649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1726664253173207, "dur":97512, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1726664253105765, "dur":3071, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1726664253108836, "dur":3712, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1726664253112551, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1726664253119705, "dur":4213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1726664253123984, "dur":3621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":15, "ts":1726664253127651, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":15, "ts":1726664253130407, "dur":4696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1726664253135145, "dur":4446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1726664253139638, "dur":6411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1726664253146104, "dur":3348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1726664253149494, "dur":4280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":15, "ts":1726664253153819, "dur":10790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":15, "ts":1726664253164797, "dur":6279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":15, "ts":1726664253171108, "dur":99606, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1726664253105883, "dur":2957, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1726664253108840, "dur":3727, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1726664253112568, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1726664253117359, "dur":2049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1726664253119556, "dur":3708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":16, "ts":1726664253123308, "dur":2362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":16, "ts":1726664253125715, "dur":4065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":16, "ts":1726664253129823, "dur":3664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1726664253133517, "dur":4969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1726664253138533, "dur":6435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1726664253145021, "dur":3391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1726664253148452, "dur":6004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1726664253154495, "dur":11280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ania/Desktop/MY_GAME/Lost in the Dark_Data/level1.resS" }}
+,{ "pid":12345, "tid":16, "ts":1726664253165853, "dur":104870, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726664253275279, "dur":933, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
